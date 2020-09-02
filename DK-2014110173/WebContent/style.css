@@ -1,0 +1,73 @@
+body{
+	font-family: "Noto Sans KR", sans-serif;
+	min-width: 800px;
+}
+
+#header
+{
+	position: fixed;
+	top: 0;
+	min-height: 50px;
+	height: 15vh;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.7);
+	backdrop-filter: blur(20px);
+	
+	font-family: "Noto Sans KR", sans-serif;
+	font-size: 2.5vh;
+}
+
+#maincontent
+{
+	min-height: 800px;
+	position: absolute;
+	top:0px;
+	bottom:0px;
+	width: 100%;
+	object-fit:contain;
+	
+	background-image:url("background_image.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	resize:both;
+}
+
+#headline
+{
+	min-height: 100px;
+	position:relative;
+	height: 50vh;
+	padding-top:25vh;
+	width: 100%;
+	
+	color: white;
+	font-size: 2.5vw;
+	text-shadow: 2px 2px 10px black;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#main
+{
+	min-height: 50px;
+	position:relative;
+	top:2vh;
+	width: 100%;
+	color: white;
+	text-shadow: 2px 2px 10px black;
+	text-align: center;
+	vertical-align: middle;
+}
+		
+#footer
+{
+	min-height: 20px;
+	background-color: rgba(67, 40, 117, 0.9);
+	backdrop-filter: blur(20px);
+	position: fixed;
+	bottom: 0;
+	padding-top:2vh;
+	height: 5vh;
+	width: 100%
+}
